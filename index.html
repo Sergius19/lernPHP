@@ -3,11 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lern Web</title>
+    <title>Lern Web Contact form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 <body>
-    <h1>
-        We are the best!!!
-    </h1>
+   <div class="contact-title">
+       <h1> We say you Hello!</h1>
+        <h2>We been always ready to serve you!</h2>
+    </div>
+    <div class="contact-form">
+<form id="contact-form" method="post" action="">
+<imput name="name" type="text" class="form-control" aria-placeholder="Your Name" required> 
+<br>
+<imput name="email" type="email" class="form-control" placeholder="Your Email"
+required><br>
+
+    <textarea name="message" class="form-control" placeholder="Message" row="4"
+    required></textarea><br>
+
+<imput type="submit" class="form-control submit" value="SEND MESSAGE">
+    
+</imput>
+
+
+</form>
+    </div>   
+
+
+
+
 </body>
 </html>
